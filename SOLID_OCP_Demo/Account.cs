@@ -16,10 +16,26 @@ namespace SOLID_OCP_Demo
             output.LastName = person.LastName;
             output.EmailAddress = $"{person.FirstName}{person.LastName}@twilightsoftwares.com";
 
-            if (person.TypeOfEmployee == EmployeeType.Manager) 
+            //if (person.TypeOfEmployee == EmployeeType.Manager) 
+            //{
+            //    output.IsManager = true;
+            //}
+
+            switch (person.TypeOfEmployee)
             {
-                output.IsManager = true;
+                case EmployeeType.Staff:
+                    break;
+                case EmployeeType.Manager:
+                    output.IsManager = true;
+                    break;
+                case EmployeeType.Executive:
+                    output.IsManager = true;
+                    output.IsExecutive = true;
+                    break;
+                default:
+                    break;
             }
+
 
             return output;
         }

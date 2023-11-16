@@ -14,7 +14,7 @@ namespace SOLID_OCP_Demo
             {
                 new PersonModel { FirstName = "Naveen", LastName = "Kumar" },
                 new PersonModel { FirstName = "Karthik", LastName = "Vijay", TypeOfEmployee = EmployeeType.Manager },
-                new PersonModel { FirstName = "Selva", LastName = "Nathan" }
+                new PersonModel { FirstName = "Selva", LastName = "Nathan", TypeOfEmployee = EmployeeType.Executive }
             };
 
             List<EmployeeModel> employees = new List<EmployeeModel>();
