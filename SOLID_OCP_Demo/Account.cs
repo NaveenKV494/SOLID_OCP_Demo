@@ -14,7 +14,7 @@ namespace SOLID_OCP_Demo
 
             output.FirstName = person.FirstName;
             output.LastName = person.LastName;
-            output.EmailAddress = $"{person.FirstName.Substring(0, 1)}{person.LastName}@acme.com";
+            output.EmailAddress = $"{person.FirstName}{person.LastName}@twilightsoftwares.com";
 
             return output;
         }
