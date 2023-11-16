@@ -22,7 +22,7 @@ namespace SOLID_OCP_Demo
 
             foreach (var person in applicants)
             {
-                employees.Add(accountProcessor.Create(person));
+                employees.Add(person.AccountProcessor.Create(person));
             }
 
             foreach (var emp in employees)
