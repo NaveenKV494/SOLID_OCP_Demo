@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SOLID_OCP_Demo
 {
-    internal class MangerModel : IApplicantModel
+    public class MangerModel : IApplicantModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public IAccounts AccountProcessor { get; set; }
+        public IAccounts AccountProcessor { get; set; } = new ManagerAccounts();
     }
 }
