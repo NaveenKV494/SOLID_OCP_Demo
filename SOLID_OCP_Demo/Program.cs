@@ -10,7 +10,7 @@ namespace SOLID_OCP_Demo
     {
         static void Main(string[] args)
         {
-            List<PersonModel> applicants = new List<PersonModel>
+            List<IApplicantModel> applicants = new List<IApplicantModel>
             {
                 new PersonModel { FirstName = "Naveen", LastName = "Kumar" },
                 new PersonModel { FirstName = "Karthik", LastName = "Vijay"},
