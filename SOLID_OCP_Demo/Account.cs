@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SOLID_OCP_Demo
 {
-    public class Accounts
+    public class Accounts : IAccounts
     {
-        public EmployeeModel Create(PersonModel person)
+        public EmployeeModel Create(IApplicantModel person)
         {
             EmployeeModel output = new EmployeeModel();
 
