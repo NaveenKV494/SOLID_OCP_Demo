@@ -13,7 +13,7 @@ namespace SOLID_OCP_Demo
             List<PersonModel> applicants = new List<PersonModel>
             {
                 new PersonModel { FirstName = "Naveen", LastName = "Kumar" },
-                new PersonModel { FirstName = "Karthik", LastName = "Vijay" },
+                new PersonModel { FirstName = "Karthik", LastName = "Vijay", TypeOfEmployee = EmployeeType.Manager },
                 new PersonModel { FirstName = "Selva", LastName = "Nathan" }
             };
 
