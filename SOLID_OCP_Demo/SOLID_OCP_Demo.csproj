@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Account.cs" />
     <Compile Include="EmployeeModel.cs" />
+    <Compile Include="IApplicantModel.cs" />
     <Compile Include="PersonModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
