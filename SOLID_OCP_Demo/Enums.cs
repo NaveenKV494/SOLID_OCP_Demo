@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SOLID_OCP_Demo
 {
-    internal class Enums
+
+    public enum EmployeeType
     {
+        Staff,
+        Manager
     }
 }
